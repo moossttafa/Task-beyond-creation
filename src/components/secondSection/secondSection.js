@@ -6,7 +6,9 @@ import Icon3 from "../../img/icons/kids.png"
 import Icon4 from "../../img/icons/medical.png"
 import Icon5 from "../../img/icons/park.png"
 import Icon6 from "../../img/icons/sport.png"
-import banner from "../../img/slide.png"
+import banner from "../../img/slide.png" 
+import Carousel from 'react-bootstrap/Carousel';
+ 
 
 const SecondSection = () => {
   return (
@@ -42,8 +44,8 @@ const SecondSection = () => {
                         </div>
                     </section>
                     <div  className="mx-4 verticalline"></div>
-                    <section className='firstRow text-center'>
-                        <div style={{ height: "150px" }}>
+                    <section className='firstRow text-center' >
+                    <div style={{ height: "150px" }}>
                             <img src={Icon4} alt="Logo" />
                             <h4 className='title'>Sports Facilities</h4>
                             <p className='paragraph'>Sports Courts, Fitness Center <br />
@@ -67,19 +69,44 @@ const SecondSection = () => {
                 </div>
             </div>
             <div className='col-md-6'> 
-              <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img className="d-block w-100" src={banner} alt="First slide" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src={banner} alt="Second slide" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src={banner} alt="Third slide" />
-                  </div>
-                </div>
-              </div>
+            <Carousel fade>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={banner}
+                  alt="First slide"
+                /> 
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={banner}
+                  alt="Second slide"
+                />
+ 
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={banner}
+                  alt="Third slide"
+                /> 
+              </Carousel.Item>
+              <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={banner}
+                alt="Third slide"
+              /> 
+            </Carousel.Item>
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={banner}
+              alt="Third slide"
+            /> 
+          </Carousel.Item>
+            </Carousel> 
             </div> 
         </div>
     </div>
