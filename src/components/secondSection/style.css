@@ -1,0 +1,47 @@
+.header-title{
+  text-align: left;  
+}
+ 
+.title-name{
+  font-size: 100px; 
+  color: #21436E;
+}
+ 
+.description{
+  color: #21436E;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+ 
+.title{
+  color: #268FB4;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px 0px 0px 0px;
+   
+}
+.title-des{
+  color: #21436E;
+}
+.paragraph{
+  color: #757575
+}
+.horizontalline{
+  border-top: 3px dashed #bbb
+}
+.verticalline{
+  border-left: 1px solid #bbb;
+  height: 500px
+}
+.carousel{
+  padding-top: 60px;
+}
+@media (max-width : 767px){
+  .title-name{
+    font-size: 50px;  
+  }
+  .description {
+    font-size: 16px;
+  }
+}

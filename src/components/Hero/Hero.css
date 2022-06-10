@@ -1,0 +1,8 @@
+.hero{
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)) center center / cover, url(/src/img/Makadi_Heights_Render\ 1.png); */
+  background-image: url(/src/img/Makadi_Heights_Render\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh; 
+}
